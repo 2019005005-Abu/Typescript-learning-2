@@ -1,0 +1,11 @@
+*{
+    background-color:beige;
+}
+#btn{
+    margin-top: 10px;
+}
+input[type='text'],[type='email']{
+    padding: 10px;
+    background: red;
+    color: black;
+}

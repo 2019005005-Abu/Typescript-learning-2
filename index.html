@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typescript Project</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <h1>User-Registration</h1>
+    <form class="user-form">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name"/>
+        </div><br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter Email">
+        </div><br>
+        <div>
+            <label for="country">Choose Your Country</label>
+             <select name="country" id="country">
+                <option value="bangladesh">Bangladesh</option>
+                <option value="india">India</option>
+                <option value="pakistan">Pakisthan</option>
+                <option value="china">China</option>
+                <option value="finland">Finland</option>
+             </select>
+        </div><br>
+        <div>
+         <label for="feedback">Your FeedBack:</label>
+         <textarea name="feedback" id="feedback" cols="30" rows="10" placeholder="Enter Your Feedback">
+         </textarea>
+        </div>
+        <div>
+           <button type="submit" id="btn">Save</button>
+        </div>
+    </form>
+    <script src="./Src/dist/index.js"></script>
+</body>
+</html>
